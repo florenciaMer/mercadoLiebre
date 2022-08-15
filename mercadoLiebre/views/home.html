@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Mercado Liebre</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8f1f294b9c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    hola heroku
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <img src="/images/logo-mercado-liebre.svg" class="logo" alt="logo">
+            <h2 class="copy-header">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </h2>
+        </div>
+        <!-- <div><img src="images/img-home-banner.jpg" alt="banner"></div>  -->
+        
+        <!-- <p>Lugar para poner la barra de búsquedas</p>  -->
+        
+        <a href="#" class="hamburguer-buttom">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+        <nav class="main-nav-bar">
+            <ul class="left-nav-bar">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayudar</a></li>
+            </ul>
+        
+            <ul class="right-nav-bar">
+                <li><a href="crea-tu-cuenta"></i>Creá tu cuenta</a><i class="fa-solid fa-credit-card ml-2"></i></li>
+                <li><a href="#">Ingresá</a><i class="fa-solid fa-right-to-bracket ml-2"></i></li>
+                <li><a href="#">Mis Compras</a><i class="fa-solid fa-basket-shopping ml-2"></i></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+           <form action="" method="post" class="create-form">
+          <div class="control-form">
+                <label for="nombre">Nombre del Producto</label>
+                <input type="text" name="nombre" id="nombre" class="control">
+            </div>
+
+            <div class="control-form">
+                <label for="precio">Precio</label>
+                <input type="number" name="precio" id="precio" class="control" placeholder="123.56">
+            </div>
+
+            <div class="control-form">
+                <label for="categoria">Categoría</label>
+                <select name="categoria" class="control ctrl-selec">
+                    <option value="hogar">Hogar</option>
+                    <option value="Indumentaria">Indumentaria</option>
+                    <option value="tecnologia">Tecnologia</option>
+                </select>
+            </div>
+
+            <div class="control-form">
+                <label>Ciudad</label>
+                <select name="ciudad" class="control ctrl-selec">
+                    <option value="bsas">Buenos Aires</option>
+                    <option value="ro">Rosario</option>
+                    <option value="me">Mendoza</option>
+                </select>
+            </div>
+            <label for="descripcion">Descripcion del producto</label>
+            <textarea name="descripcion" class="control"></textarea>
+            
+            <div class="control-form">
+                <label for="oferta">En Oferta?</label>
+                <input type="radio" name="oferta" value="oferta_true">Si
+                <input type="radio" name="oferta" value="oferta_false">No
+            </div>
+
+            <button type="reset" class="btn-form">Borrar</button>
+            <button type="submit" class="btn-form">Guardar</button>
+
+       </form>
+       <article class="products">
+            <h2>I phone 11</h2>
+            <img src="/images/01.png">
+       </article>
+       <article class="products">
+        <h2>I phone 11</h2>
+        <img src="/images/01.png">
+   </article>
+   <article class="products">
+    <h2>I phone 11</h2>
+    <img src="/images/01.png">
+</article>
+<article class="products">
+    <h2>I phone 11</h2>
+    <img src="/images/01.png">
+</article>
+    </main>
+   
+    <footer>
+        <section>
+            <ul>
+                <li>
+                    <strong>Pagá con tarjeta o en efectivo</strong> 
+                    Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo
+                        en puntos de pago. Y siempre es seguro!           
+                </li>
+                <li>
+                    <strong>Envío gratis desde $2.500</strong> 
+                    Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles
+                        de productos. Es un beneficio de Mercado Puntos.              
+                </li>
+                <li>
+                    <strong>Seguridad de principio a fin</strong> 
+                    ¿No te gusta? Devolvelo! En MercadoLiebre no hay
+                        nada mas seguro que puedas hacer porque está
+                        siempre protegid@. 
+                </li>
+                <li>
+                    Copyrigth © 1999-2020 MercadoLiebre S.R.L.
+                </li>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>
